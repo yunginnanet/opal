@@ -1,0 +1,31 @@
+package lex
+
+//goland:noinspection GoSnakeCaseUsage
+const (
+	BAD      = "BAD"
+	EOF      = "EOF"
+	EQ       = "="
+	PLUS     = "+"
+	MINUS    = "-"
+	COMMA    = ","
+	SEMIC    = ";"
+	LP       = "("
+	RP       = ")"
+	LB       = "{"
+	RB       = "}"
+	STRING   = "str"
+	NUM      = "int"
+	BOOL     = "bool"
+	VAR      = "var"
+	FUNC     = "func"
+	IF       = "if"
+	THEN     = "then"
+	ELSE     = "else"
+	RETURN   = "return"
+	FOR      = "for"
+	WHILE    = "while"
+	PARALLEL = "bg"
+	EXEC     = "exec"
+	EXIT     = "exit"
+	PIPE     = "|"
+)
